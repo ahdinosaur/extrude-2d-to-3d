@@ -1,0 +1,35 @@
+{
+  "name": "extrude-2d-to-3d",
+  "version": "0.1.0",
+  "description": "Extrude 2d (dxf) file to 3d (stl, 3mf) file",
+  "type": "module",
+  "main": "index.js",
+  "bin": "bin.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/villagekit/extrude-2d-to-3d.git"
+  },
+  "keywords": [
+    "dxf",
+    "stl"
+  ],
+  "author": "Michael Williams",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/villagekit/extrude-2d-to-3d/issues"
+  },
+  "homepage": "https://github.com/villagekit/extrude-2d-to-3d#readme",
+  "devDependencies": {
+    "ava": "^5.2.0"
+  },
+  "dependencies": {
+    "@jscad/3mf-serializer": "^2.1.8",
+    "@jscad/dxf-deserializer": "^2.3.21",
+    "@jscad/modeling": "^2.11.1",
+    "@jscad/stl-serializer": "^2.1.14",
+    "meow": "^12.0.0"
+  }
+}
