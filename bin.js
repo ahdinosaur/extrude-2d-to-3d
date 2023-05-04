@@ -4,16 +4,16 @@ import meow from 'meow'
 import { extrude2dTo3D } from './index.js'
 
 const cli = meow(`
-	Usage
-	  $ extrude-2d-to-3d [options]
+  Usage
+    $ extrude-2d-to-3d [options]
 
-	Options
-          --input, -i  Input file path
-	  --output, -o  Output file path
-	  --height, -h  Height of the extrusion
+  Options
+    --input, -i  Input file path
+    --output, -o  Output file path
+    --height, -h  Height of the extrusion
 
-	Examples
-	  $ extrude-2d-to-3d -i 2d.dxf -o 3d.stl -h 10
+  Examples
+    $ extrude-2d-to-3d -i 2d.dxf -o 3d.stl -h 10
 `, {
   importMeta: import.meta,
   flags: {
